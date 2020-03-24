@@ -11,4 +11,4 @@ jobs:
         name: relclick/ton-private-network
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        tags: ${GITHUB_SHA}
+        tags: "${GITHUB_SHA::8}"
